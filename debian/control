@@ -5,7 +5,7 @@ Maintainer: Warren Severin <wseverin@warsev.com>
 Standards-Version: 3.9.2
 Homepage: http://sourceforge.net/projects/linssid
 Build-Depends: debhelper (>= 8.0.0), libqt4-dev, qt4-qmake, cdbs,
- libboost-regex-dev (>=1.46), libqwt-dev
+ libboost-regex-dev (>=1.46), libqwt-dev, g++-4.6, libstdc++6-4.6-dev
 #Vcs-Git: git://git.debian.org/collab-maint/linssid.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/linssid.git;a=summary
 
