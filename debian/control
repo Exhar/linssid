@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 8.0.0), libqt4-dev, qt4-qmake, cdbs,
 Package: linssid
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, wireless-tools
-#Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4:4.7.0~beta1),
+#Depends: libc6 (>= 2.13), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4:4.7.0~beta1),
 # libqtgui4 (>= 4:4.5.3), libqwt6, libstdc++6 (>= 4.6), wireless-tools
 Recommends: sudo
 Description: Graphical wireless scanner
