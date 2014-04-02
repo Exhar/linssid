@@ -1,0 +1,49 @@
+©2012 Warren Severin
+This program is released under the terms of the GNU Public License (version 3).
+
+Version 2.1:
+* Fixes issue with not finding some interfaces when they are 'up'
+    but not connected to an attach point.
+* Updated wifi vendor database
+
+Version 2.0:
+* Hopefully fixes the problem with not finding some wireless interfaces.
+
+Version 1.9:
+* Added data logging to "~/LinSSID.datalog"
+* Anti-aliased plots
+* Updated wifi vendor database
+
+Version 1.8a:
+* Minor ooopps fix in password handling
+
+Version 1.8:
+* Stability improvement build
+* - Improved odd character handling in password verification
+* - Improved handling of default values on initial install or upgrade
+* - Improved wireless port discovery
+
+Version 1.7:
+* Adds horizontal grid to plots
+* Adds a Preferences menu item under the File menu.
+* - Adjust plot scale
+* - Toggle grid lines on/off
+
+Version 1.6:
+* Attempts to fix frequent crashing with some wifi drivers. Also some cosmetic changes.
+* - Fixes problem of some drivers reporting attach points (based on MAC address) more than once per scan. (Go figure...)
+* - Fixes code problem handling recalcitrant drivers that don't want to do a scan when requested to do so.
+* Centers most text alignment in cells
+
+Version 1.5:
+* Saves window layout between sessions. Keeps ".linssid.prefs" in home folder. If things go haywire delete the prefs file.
+
+Version 1.4:
+* Imposes minimum 0.5 second "nap time" between scans so that poorly written drivers crash less.
+* Updates the UOI vendor database
+* Improves concurrency of wifi scanning and main form updating.
+
+The wireless tools that LinSSID uses require root privilege to access. If your machine has sudo, the best way to run is to launch the program and let it ask you for a password. That way it will only use root privilege to execute a few privileged system commands, but LinSSID itself will not run as a root process. The other way to run LinSSID is to launch it from a root account or with su or sudo. It will run, but in my opinion that's a bit more dangerous. One never knows what nasty bugs are hiding in new, unstable code.
+
+Please, test this package and submit feedback!
+
